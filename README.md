@@ -76,28 +76,28 @@
 <details markdown="1">
 <summary>detail</summary>
 
-
+직접 java 코드로 Open API 호출 시 필요한 body 해시값 생성
 
 #### Parameters
 
-##### Body
+##### Params
 
 |     name     |  type  |    description     | required |
 |:------------:|:------:|:------------------:|:--------:|
-|   clientId   | String | 클라이언트 id (API KEY) | Required |
 | clientSecret | String |    클라이언트 Secret    | Required |
+
+##### Body
+
+해시 함수에 넣을 body값
 
 #### Response
 
 ```json
 {
-    "success": true,
-    "responseCode": 0,
-    "message": "Ok",
-    "data": {
-        "accessToken": "Bearer xxxxxxxxxxxxxxxxxxxx~~",
-        "expiresIn": "86400"
-    }
+  "success": true,
+  "responseCode": 0,
+  "message": "Ok",
+  "data": "xxxxxxxxxxxxxxxxxxxx"
 }
 ```
 
