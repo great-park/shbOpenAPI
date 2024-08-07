@@ -52,7 +52,7 @@
 
 #### Parameters
 
-##### Body
+##### Header
 
 |     name      | type |    description     | required |
 |:-------------:| :---: |:------------------:| :---: |
